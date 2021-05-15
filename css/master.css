@@ -6,7 +6,7 @@
 
 html {
   font-family: sans-serif;
-  /* color: #002D5F; */
+  color: #33373c;
   background: white;
   /* margin-top: 10px; */
 }
@@ -123,6 +123,6 @@ nav a:not(.nav_logo):hover {
 }
 
 #headline h1 {
-  color: white;
+  padding-top: 3vh;
   font-size: 10vh;
 }
