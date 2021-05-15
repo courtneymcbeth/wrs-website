@@ -28,7 +28,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 70px;
   padding: 10px 100px;
   box-sizing: border-box;
   transition: .5s;
@@ -125,4 +125,5 @@ nav a:not(#wrs_logo):hover {
 #headline h1 {
   padding-top: 3vh;
   font-size: 10vh;
+  color: #99ffc7ff;
 }
