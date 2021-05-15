@@ -33,6 +33,7 @@ nav {
   box-sizing: border-box;
   transition: .5s;
   z-index: 2;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 nav #logo {
@@ -104,6 +105,11 @@ nav a:not(.nav_logo):hover {
 
 .scrolled:not(ul), .no_scroll:not(ul) {
   height: 60px;
+}
+
+#headline h1 {
+  color: white;
+  font-size: 10vh;
 }
 
 /* main page */
