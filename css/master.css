@@ -107,11 +107,6 @@ nav a:not(.nav_logo):hover {
   height: 60px;
 }
 
-#headline h1 {
-  color: white;
-  font-size: 10vh;
-}
-
 /* main page */
 .full {
   align-items: center;
@@ -124,5 +119,10 @@ nav a:not(.nav_logo):hover {
 #parallax {
   background-image: url('../images/bg_placeholder.jpg');
   background-size: cover;
-  border-bottom: 1px solid #65C8D0;
+  border-bottom: 1px solid #30ff8dff;
+}
+
+#headline h1 {
+  color: white;
+  font-size: 10vh;
 }
