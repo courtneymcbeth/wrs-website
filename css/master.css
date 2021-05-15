@@ -67,7 +67,7 @@ nav ul li {
 nav ul li a {
   line-height:  40px;
   color: #33373c;
-  padding: 5px 20px;
+  padding: 10px 20px;
   margin: 5px 10px;
   transition: .5s;
 }
@@ -132,5 +132,5 @@ nav a:not(#wrs_logo):hover {
 #headline h1 {
   padding-top: 3vh;
   font-size: 10vh;
-  color: #99ffc7ff;
+  color: #66ffabff;
 }
