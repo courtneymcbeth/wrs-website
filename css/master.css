@@ -131,6 +131,12 @@ nav a:not(#wrs_logo):hover {
 
 #headline h1 {
   padding-top: 3vh;
-  font-size: 10vh;
-  color: #66ffabff;
+  font-size: 70pt;
+  color: #30ff8dff;
+}
+
+.heading {
+  color: #30ff8dff;
+  background-color: #33373c;
+  font-size: 36pt;
 }
