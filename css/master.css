@@ -105,3 +105,18 @@ nav a:not(.nav_logo):hover {
 .scrolled:not(ul), .no_scroll:not(ul) {
   height: 60px;
 }
+
+/* main page */
+.full {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#parallax {
+  background-image: url('../images/bg_placeholder.jpg');
+  background-size: cover;
+  border-bottom: 1px solid #65C8D0;
+}
