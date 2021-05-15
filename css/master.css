@@ -33,7 +33,7 @@ nav {
   box-sizing: border-box;
   transition: .5s;
   z-index: 2;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 nav #logo {
@@ -59,7 +59,7 @@ nav ul li {
 
 nav ul li a {
   line-height:  40px;
-  color: #002D5F;
+  color: #33373c;
   padding: 5px 20px;
   margin: 5px 10px;
   transition: .5s;
@@ -72,8 +72,8 @@ nav ul li a {
   text-align: left;
 }
 
-nav a:not(.nav_logo):hover {
-  background-color: #e7e7e7;
+nav a:not(#wrs_logo):hover {
+  background-color: #99ffc7ff;
   border-radius: 15px;
   text-decoration: none;
 }
