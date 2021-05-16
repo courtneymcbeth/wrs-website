@@ -147,3 +147,13 @@ nav a:not(#wrs_logo):hover {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+footer {
+  background-color: #33373c;
+  border-top: 1px solid #30ff8dff;
+}
+
+footer p {
+  color: #30ff8dff;
+  font-style: italic;
+}
