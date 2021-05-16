@@ -58,8 +58,8 @@ nav ul {
   float: right;
   margin: 0;
   padding: 0;
-  display: flex;
-  align-items: baseline;
+  display: flexbox;
+  align-items: center;
 }
 
 nav ul li {
@@ -134,4 +134,5 @@ footer p {
   color: #33373c;
   font-style: italic;
   padding: 5px 20px;
+  margin-top: 20px;
 }
