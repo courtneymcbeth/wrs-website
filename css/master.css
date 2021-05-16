@@ -36,7 +36,8 @@ nav {
   left: 0;
   width: 100%;
   height: 60px;
-  padding: 10px 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   box-sizing: border-box;
   transition: .5s;
   z-index: 2;
@@ -83,38 +84,14 @@ nav ul li a {
 
 nav a:not(#wrs_logo):hover {
   background-color: #99ffc7ff;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   text-decoration: none;
-}
-
-.main_nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .main_nav li:hover .subnav {
   display: block;
 }
 
-.scrolled, .no_scroll {
-  background: white;
-  border-bottom: 1px solid #65C8D0;
-}
-
-.logo a img {
-  transition: 0.5s;
-}
-
-.scrolled .logo a img, .no_scroll .logo a img {
-  height: 35px;
-  width: 140px;
-}
-
-.scrolled:not(ul), .no_scroll:not(ul) {
-  height: 60px;
-}
 
 /* main page */
 .full {
@@ -142,6 +119,7 @@ nav a:not(#wrs_logo):hover {
   color: #30ff8dff;
   background-color: #33373c;
   font-size: 36pt;
+  margin: auto;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -149,11 +127,11 @@ nav a:not(#wrs_logo):hover {
 }
 
 footer {
-  background-color: #33373c;
   border-top: 1px solid #30ff8dff;
 }
 
 footer p {
-  color: #30ff8dff;
+  color: #33373c;
   font-style: italic;
+  padding: 5px 20px;
 }
