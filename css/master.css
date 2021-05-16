@@ -126,7 +126,7 @@ nav a:not(#wrs_logo):hover {
 }
 
 #parallax {
-  background-image: url('../images/bg_placeholder.jpeg');
+  background-image: url('../images/bg_placeholder.jpg');
   background-size: cover;
   border-bottom: 1px solid #30ff8dff;
 }
