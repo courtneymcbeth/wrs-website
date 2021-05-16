@@ -74,7 +74,7 @@ nav ul li a {
   line-height:  40px;
   color: #33373c;
   padding: 10px 20px;
-  margin: 5px 10px;
+  margin: auto 10px;
   transition: .5s;
 }
 
@@ -139,7 +139,7 @@ nav a:not(#wrs_logo):hover {
   padding-top: 3vh;
   font-size: 80pt;
   color: #30ff8dff;
-  text-shadow: -14px 7px 0 #0a0e27;
+  text-shadow: -10px 7px 0 #33373c;
 }
 
 .heading {
