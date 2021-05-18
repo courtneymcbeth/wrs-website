@@ -135,11 +135,12 @@ nav a:not(#wrs_logo):hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .product_blob {
+  width: fit-content;
   display: flexbox;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
