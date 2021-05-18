@@ -120,6 +120,9 @@ nav a:not(#wrs_logo):hover {
   background-color: #33373c;
   font-size: 36pt;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-style: italic;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
