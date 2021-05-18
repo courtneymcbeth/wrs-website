@@ -58,11 +58,8 @@ nav ul {
   float: right;
   margin: 0;
   padding: 0;
-  display: flexbox;
+  display: inline-flex;
   align-items: center;
-  flex-direction: row;
-  width: 50vw;
-  justify-content: flex-end;
 }
 
 nav ul li {
