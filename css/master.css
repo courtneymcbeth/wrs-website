@@ -61,6 +61,8 @@ nav ul {
   display: flexbox;
   align-items: center;
   flex-direction: row;
+  width: 50vw;
+  justify-content: flex-end;
 }
 
 nav ul li {
