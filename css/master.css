@@ -137,20 +137,21 @@ nav a:not(#wrs_logo):hover {
   justify-content: center;
 }
 
-.photo_blob {
+.product_blob {
   display: flexbox;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   border-radius: 15px;
   justify-content: center;
 }
 
-.photo_blob img {
+.product_blob {
   width: 200px;
   height: 200px;
 }
 
-.photo_blob h6 {
+.product_blob h6 {
   font-size: small;
   color: #33373c;
 }
