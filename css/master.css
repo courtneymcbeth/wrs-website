@@ -167,14 +167,21 @@ nav a:not(#wrs_logo):hover {
   border-top: 1px solid #30ff8dff;
 }
 
+.green-blurb {
+  background-color: #30ff8dff;
+}
+
 .title-blurb {
   display: flex;
   flex-direction: column;
+  padding: 20px;
 }
 
 .title-blurb h4 {
   text-align: center;
   font-size: 36pt;
+  font-style: italic;
+  margin-bottom: 30px;
 }
 
 .pic-display img {
