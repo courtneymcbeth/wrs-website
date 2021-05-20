@@ -139,7 +139,7 @@ nav a:not(#wrs_logo):hover {
 }
 
 .product_blob {
-  margin: 10px;
+  margin: 15px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -180,6 +180,7 @@ nav a:not(#wrs_logo):hover {
 .pic-display img {
   object-fit: cover;
   width: 40vw;
+  height: 80vh;
   border-right: 1px solid #30ff8dff;
 }
 
