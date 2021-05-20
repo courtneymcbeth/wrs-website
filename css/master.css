@@ -184,6 +184,10 @@ nav a:not(#wrs_logo):hover {
   margin-bottom: 30px;
 }
 
+.title-blurb p {
+  font-size: 16pt;
+}
+
 .pic-display img {
   object-fit: cover;
   width: 40vw;
