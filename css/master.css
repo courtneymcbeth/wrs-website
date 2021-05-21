@@ -123,7 +123,7 @@ nav a:not(#wrs_logo):hover {
   padding-top: 3vh;
   font-size: 80pt;
   color: var(--main-teal);
-  text-shadow: -10px 7px 0 var(--rich-black);
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .alabaster-bg {
