@@ -30,9 +30,9 @@ a {
 }
 
 .shadow {
-  -moz-box-shadow:    0px 3px 15px 6px #7a7a7a;
-  -webkit-box-shadow: 0px 3px 15px 6px #7a7a7a;
-  box-shadow:         0px 3px 15px 6px #7a7a7a;
+  -moz-box-shadow:    0px 3px 15px 6px var(--rich-black);
+  -webkit-box-shadow: 0px 3px 15px 6px var(--rich-black);
+  box-shadow:         0px 3px 15px 6px var(--rich-black);
 }
 
 
@@ -51,7 +51,6 @@ nav {
   box-sizing: border-box;
   transition: .5s;
   z-index: 2;
-  /* background-color: white; */
   background-color: var(--rich-black);
 }
 
@@ -79,7 +78,6 @@ nav ul li {
 
 nav ul li a {
   line-height:  40px;
-  /* color: var(--rich-black); */
   color: white;
   padding: 10px 20px;
   margin: auto 10px;
@@ -96,6 +94,7 @@ nav ul li a {
 
 nav a:not(#wrs_logo):hover {
   background-color: var(--main-teal);
+  color: var(--rich-black)
   /* border-radius: 15px; */
   text-decoration: none;
 }
@@ -128,17 +127,17 @@ nav a:not(#wrs_logo):hover {
 }
 
 .alabaster-bg {
+  margin: 0;
+  padding: 20px;
   background-color: var(--alabaster);
 }
 
 .heading {
-  color: var(--main-teal);
-  background-color: var(--rich-black);
+  color: var(--rich-black);
   font-size: 36pt;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 10px;
-  font-style: italic;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -155,6 +154,7 @@ nav a:not(#wrs_logo):hover {
 }
 
 .product_blob {
+  background-color: white;
   margin: 15px;
   padding: 10px;
   display: flex;
@@ -162,9 +162,12 @@ nav a:not(#wrs_logo):hover {
   align-items: center;
   border-radius: 15px;
   justify-content: center;
-  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  /* -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .product_blob img {
@@ -174,7 +177,7 @@ nav a:not(#wrs_logo):hover {
 
 .product_blob h6 {
   font-size: 12pt;
-  color: #33373c;
+  color: var(--rich-black);
   width: 200px;
   text-align: center;
 }
