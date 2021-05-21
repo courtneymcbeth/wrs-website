@@ -51,7 +51,8 @@ nav {
   box-sizing: border-box;
   transition: .5s;
   z-index: 2;
-  background-color: white;
+  /* background-color: white; */
+  background-color: var(--rich-black);
 }
 
 nav #logo {
@@ -78,7 +79,8 @@ nav ul li {
 
 nav ul li a {
   line-height:  40px;
-  color: var(--rich-black);
+  /* color: var(--rich-black); */
+  color: white;
   padding: 10px 20px;
   margin: auto 10px;
   transition: .5s;
