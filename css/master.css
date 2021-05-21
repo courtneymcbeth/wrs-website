@@ -1,3 +1,10 @@
+:root {
+  --rich-black: #050505;
+  --main-teal: #1b9aaa;
+  --main-bone: #DDDBCB;
+  --alabaster: #F5F1E3;
+}
+
 * {
   border: 0;
   padding: 0;
@@ -5,8 +12,8 @@
 }
 
 html {
-  font-family: 'Raleway', sans-serif;
-  color: #33373c;
+  font-family: 'Rubik', sans-serif;
+  color: var(--rich-black);
   background: white;
   /* margin-top: 10px; */
 }
@@ -44,7 +51,7 @@ nav {
   box-sizing: border-box;
   transition: .5s;
   z-index: 2;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: white;
 }
 
 nav #logo {
@@ -71,7 +78,7 @@ nav ul li {
 
 nav ul li a {
   line-height:  40px;
-  color: #33373c;
+  color: var(--rich-black);
   padding: 10px 20px;
   margin: auto 10px;
   transition: .5s;
@@ -86,7 +93,7 @@ nav ul li a {
 }
 
 nav a:not(#wrs_logo):hover {
-  background-color: #99ffc7ff;
+  background-color: var(--main-teal);
   /* border-radius: 15px; */
   text-decoration: none;
 }
@@ -108,19 +115,19 @@ nav a:not(#wrs_logo):hover {
 #parallax {
   background-image: url('../images/bg_placeholder.jpg');
   background-size: cover;
-  border-bottom: 1px solid #30ff8dff;
+  border-bottom: 1px solid var(--main-teal);
 }
 
 #headline h1 {
   padding-top: 3vh;
   font-size: 80pt;
-  color: #30ff8dff;
-  text-shadow: -10px 7px 0 #33373c;
+  color: var(--main-teal);
+  text-shadow: -10px 7px 0 var(--rich-black);
 }
 
 .heading {
-  color: #30ff8dff;
-  background-color: #33373c;
+  color: var(--main-teal);
+  background-color: var(--rich-black);
   font-size: 36pt;
   margin: auto;
   margin-top: 20px;
@@ -169,11 +176,15 @@ nav a:not(#wrs_logo):hover {
 .pic-display {
   display: flex;
   flex-direction: row;
-  border-top: 1px solid #30ff8dff;
+  /* border-top: 1px solid var(--main-teal); */
 }
 
-.green-blurb {
-  background-color: #99ffc7ff;
+.teal-blurb {
+  background-color: var(--main-teal);
+}
+
+.bone-blurb {
+  background-color: var(--main-bone);
 }
 
 .title-blurb {
@@ -199,16 +210,16 @@ nav a:not(#wrs_logo):hover {
   object-fit: cover;
   width: 40vw;
   height: 80vh;
-  border-right: 1px solid #30ff8dff;
-  border-left: 1px solid #30ff8dff;
+  /* border-right: 1px solid #30ff8dff;
+  border-left: 1px solid #30ff8dff; */
 }
 
 footer {
-  border-top: 1px solid #30ff8dff;
+  border-top: 1px solid var(--main-teal);
 }
 
 footer p {
-  color: #33373c;
+  color: var(--rich-black);
   font-style: italic;
   padding: 5px 20px;
 }
