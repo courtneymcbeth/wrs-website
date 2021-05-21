@@ -151,6 +151,7 @@ nav a:not(#wrs_logo):hover {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .product_blob {
