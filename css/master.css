@@ -127,6 +127,10 @@ nav a:not(#wrs_logo):hover {
   text-shadow: -10px 7px 0 var(--rich-black);
 }
 
+.alabaster-bg {
+  background-color: var(--alabaster);
+}
+
 .heading {
   color: var(--main-teal);
   background-color: var(--rich-black);
