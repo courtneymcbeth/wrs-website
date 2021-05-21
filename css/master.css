@@ -94,7 +94,7 @@ nav ul li a {
 
 nav a:not(#wrs_logo):hover {
   background-color: var(--main-teal);
-  color: var(--rich-black)
+  color: var(--rich-black);
   /* border-radius: 15px; */
   text-decoration: none;
 }
