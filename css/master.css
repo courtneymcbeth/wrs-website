@@ -122,8 +122,8 @@ nav a:not(#wrs_logo):hover {
 #headline h1 {
   padding-top: 3vh;
   font-size: 80pt;
-  color: var(--main-teal);
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: var(--alabaster);
+  text-shadow: 2px 4px 3px rgba(0,0,0,1);
 }
 
 .alabaster-bg {
