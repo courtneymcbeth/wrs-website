@@ -190,6 +190,7 @@ nav a:not(#wrs_logo):hover {
 
 .teal-blurb {
   background-color: var(--main-teal);
+  color: white;
 }
 
 .bone-blurb {
