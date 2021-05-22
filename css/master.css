@@ -247,3 +247,7 @@ footer {
   justify-content: flex-start;
   flex-direction: row;
 }
+
+footer a {
+  color: white;
+}
