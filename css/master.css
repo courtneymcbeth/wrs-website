@@ -233,7 +233,7 @@ footer {
   padding-bottom: 20px;
 }
 
-#f-logo {
-  margin: 5px;
-  height: 20px;
+#f-logo, #li-logo {
+  margin: 6px;
+  height: 24px;
 }
