@@ -128,14 +128,14 @@ nav a:not(#wrs_logo):hover {
   text-shadow: 2px 4px 3px rgba(0,0,0,1);
 }
 
-.alabaster-bg {
+.black-bg {
   margin: 0;
   padding: 20px;
-  background-color: var(--alabaster);
+  background-color: var(--rich-black);
 }
 
 .heading {
-  color: var(--rich-black);
+  color: white;
   font-size: 36pt;
   margin: auto;
   margin-top: 20px;
