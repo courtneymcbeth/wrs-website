@@ -206,8 +206,8 @@ nav a:not(#wrs_logo):hover {
   text-align: center;
   font-size: 36pt;
   font-weight: bold;
-  margin-bottom: 30px;
-  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .title-blurb p {
