@@ -78,11 +78,13 @@ nav ul li {
 
 nav ul li a {
   line-height:  40px;
-  color: white;
+  /* color: white; */
   padding: 10px 20px;
   margin: auto 10px;
   transition: .5s;
-  font-weight: bold;
+  /* font-weight: bold; */
+  background-color: var(--main-teal);
+  color: var(--rich-black);
 }
 
 .subnav {
@@ -93,8 +95,8 @@ nav ul li a {
 }
 
 nav a:not(#wrs_logo):hover {
-  background-color: var(--main-teal);
-  color: var(--rich-black);
+  /* background-color: var(--main-teal);
+  color: var(--rich-black); */
   /* border-radius: 15px; */
   text-decoration: none;
 }
@@ -163,9 +165,6 @@ nav a:not(#wrs_logo):hover {
   align-items: center;
   border-radius: 15px;
   justify-content: center;
-  /* -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
   -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3);
@@ -226,10 +225,6 @@ nav a:not(#wrs_logo):hover {
 
 footer {
   border-top: 1px solid var(--main-teal);
-}
-
-footer p {
-  color: var(--rich-black);
-  font-style: italic;
-  padding: 5px 20px;
+  background-color: var(--rich-black);
+  color: var(--alabaster);
 }
