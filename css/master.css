@@ -84,7 +84,7 @@ nav ul li a {
   transition: .5s;
   /* font-weight: bold; */
   background-color: var(--main-teal);
-  color: var(--rich-black);
+  color: var(--alabaster);
 }
 
 .subnav {
@@ -226,5 +226,14 @@ nav a:not(#wrs_logo):hover {
 footer {
   border-top: 1px solid var(--main-teal);
   background-color: var(--rich-black);
-  color: var(--alabaster);
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#f-logo {
+  margin: 5px;
+  height: 20px;
 }
