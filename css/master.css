@@ -231,9 +231,19 @@ footer {
   padding-right: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-#f-logo, #li-logo {
+#f-logo, #li-logo, #yt-logo {
   margin: 6px;
   height: 24px;
+}
+
+#footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
 }
