@@ -248,6 +248,11 @@ footer {
   flex-direction: row;
 }
 
+footer h5 {
+  font-size: 14pt;
+  margin-bottom: 5px;
+}
+
 footer a {
   color: white;
 }
